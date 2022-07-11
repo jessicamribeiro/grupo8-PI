@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+div{
+    display: flex;
+    background-color: #0060b1;
+    padding: 0px 24px;
+    width: 1791px;
+    width: 100%;
+    height: 45px;
+    min-height: auto;
+    min-width: auto;
+}
+
+.container div{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content:center;
+    padding: 2% 3% 1% 8.5%;
+}
+
+.container div svg{
+    width: 35px;
+    height: inherit;
+}
