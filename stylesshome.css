@@ -43,8 +43,9 @@
 
 .barraLaranja div{
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    align-items:center;
+    align-items:flex-start;
     height: 100%;
     font-weight: 700;
     font-size: 17px;
@@ -55,5 +56,5 @@
 }
 
 .barraLaranja div:not(:last-child){
-    border-right:1px solid rgba(252, 252, 250, 0.30)
+    border-right:1px solid rgba(252, 252, 250, 0.30);
 }
