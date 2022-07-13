@@ -5,7 +5,18 @@
     padding: 0;
     margin: 0;
     font-family: Poppins;
+    box-sizing: border-box;
 }
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background: #00194F;
+}
+
 
 .container {
     display: flex;
@@ -52,9 +63,69 @@
     color: white;
     margin-left: 1.125rem;
     padding: 0px 16px;
+
+    cursor: pointer;
     
 }
 
 .barraLaranja div:not(:last-child){
     border-right:1px solid rgba(252, 252, 250, 0.30);
+}
+
+.bannerPrincipal{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.MainContainer {
+    width: 100%;
+    height: 100%;
+    
+    flex-grow: 1;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.MainContent {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.BannerPrincipal {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.ProductsContainer {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+
+    background: rgba(255, 255, 255, 0.95);
+
+    padding: 1rem;
+}
+
+.ProductContent {
+    height: 366px;
+    width: 250px;
+
+    background-color: red;
+    border-radius: 5px;
+}
+
+#menuhamburguer {
+    cursor: pointer;
 }
