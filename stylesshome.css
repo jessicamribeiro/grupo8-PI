@@ -67,6 +67,7 @@
     align-items: center;
     color: #DEE0E4;
     padding: 0px 200px 0px 95px;
+    
 
 }
 
@@ -166,6 +167,8 @@
     justify-content: center;
     max-width: auto;
     max-height: auto;
+    margin-left: 15.8%;
+    margin-right: 15.8%;
 }
 
 .promocao img {
@@ -179,8 +182,8 @@
     align-items: center;
     max-width: auto;
     max-height: auto;
-    margin-left: 365px;
-    margin-right: 365px;
+    margin-left: 15.8%;
+    margin-right: 15.8%;
     padding: 20px 40px;
 }
 
@@ -224,8 +227,8 @@
     background-color: #fafafb;
     max-width: auto;
     max-height: auto;
-    margin-left: 365px;
-    margin-right: 365px;
+    margin-left: 15.8%;
+    margin-right: 15.8%;
     height: 550px;
     display: flex;
     justify-content:space-evenly;
@@ -237,8 +240,8 @@
     justify-content: space-between;
     align-items:stretch;
     background-color: white;
-    width: 300px;
-    height: 500px;
+    margin-left: 15.8%;
+    margin-right: 15.8%;
     padding: 20px;
     margin: 10px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -253,10 +256,13 @@
     padding: 105px 40px;  
 }
 
-#caixa3 img{
+#caixa2 img{
     padding: 105px 40px;  
 }
 
+#caixa3 img{
+    padding: 105px 40px;  
+}
 #caixa4 img{
     padding: 105px 40px;  
 }
