@@ -229,7 +229,7 @@
     max-height: auto;
     margin-left: 15.8%;
     margin-right: 15.8%;
-    height: 600px;
+    height: 800px;
     display: flex;
     justify-content: space-evenly;
     padding: 20px 40px;
@@ -237,32 +237,41 @@
 
 .caixas {
     display: inline-flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: stretch;
     background-color: white;
-    margin-left: 14.8%;
-    margin-right: 14.8%;
-    padding: 20px;
+    margin-left: 25.8%;
+    margin-right: 25.8%;
+    padding: 10px;
     margin: 10px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 5px;
 }
 
 #caixa1 img {
-    padding: 10px 3px 1px 3px;
+    padding: 30px 3px 15px 5px;
+    width: 270px;
+    height: 200px;
 }
 
 
 #caixa2 img {
-    padding: 100px 3px 5px 20px;
+    padding: 30px 3px 15px 20px;
+    width: 240px;
+    height: 200px;
 }
 
 #caixa3 img {
-    padding: 100px 3px 1px 20px;
+    padding: 30px 3px 15px 20px;
+    width: 240px;
+    height: 200px;
 }
 
 #caixa4 img {
-    padding: 100px 3px 5px 25px;
+    padding: 30px 3px 15px 20px;
+    width: 240px;
+    height: 200px;
 }
 
 .conteudoComTexto {
@@ -276,7 +285,7 @@
     margin-bottom: 15px;
     font-style: normal;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 14px;
     line-height: 16px;
     text-decoration-line: underline;
 
@@ -309,14 +318,143 @@
 
 #texto3 {
     padding-left: 15px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 12px;
     line-height: 10px;
     text-decoration-line: underline;
     font-variant: small-caps;
     font-feature-settings: 'tnum' on, 'lnum' on;
 
     color: #868686;
+}
+
+.bgOrange {
+    background-color: #FF6500;
+}
+
+.borderOrange {
+    border: 1px solid #FF6500;
+}
+
+#caixaTempo {
+    height: 28px;
+}
+
+#caixaTimer {
+    background-color: #FF6500;
+    width: 50px;
+    height: 28px;
+    left: 190px;
+    top: 755px;
+
+}
+
+.conteudoComTexto .iconify {
+    padding: 0px 10px;
+    margin: 0px;
+    width: auto;
+    height: 26px;
+    color: white;
+}
+
+#textTermina {
+    padding: 4px 15px;
+    color: #ff6500;
+    height: 100px;
+    font-size: 14px;
+    text-decoration: underline
+}
+
+.borderOrange {
+    display: flex;
+}
+
+.containerAlto {
+    background-color: #FF6500;
+    display: flex;
+}
+
+.containerPai {
+    display: flex;
+    justify-content: space-between;
+}
+
+.containerFilho div {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#caixaA {
+    width: 42px;
+    height: 45px;
+    padding: 3px;
+
+    background: #FF6500;
+    border-radius: 5px;
+}
+
+#caixaB {
+    width: 45px;
+    height: 45px;
+    padding: 1px 0px 3px;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    text-align: center;
+    text-decoration-line: underline;
+    background-color: white;
+    border: 1px solid #FF6500;
+    color: #FF6500;
+
+}
+
+.displayOrange {
+    display: flex;
+    flex-direction: column;
+}
+
+#porcentagem {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 13px;
+    line-height: 12px;
+    text-align: center;
+    text-decoration-line: underline;
+    padding: 10px 0px 0px 0px;
+
+    color: #FFFFFF;
+}
+
+#caixaspan {
+    height: 160px;
+    width: 50px;
+}
+
+#iconstar{
+    width: 160px;
+    height: 50px;
+    padding: 0px;
+    
+    
+}
+
+.estrelas div{
+    display: flex;
+    justify-content: end;
+    align-items:flex-start;
+    text-align: end;
+    
+    
+}
+
+.estrelas .iconify{
+    width: 15px;
+    height: 15px;
+    color: #FF6500;
+    text-align: end;
+    padding: 1px 0px 14px 0px;
 }
