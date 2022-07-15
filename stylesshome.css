@@ -67,7 +67,7 @@
     align-items: center;
     color: #DEE0E4;
     padding: 0px 200px 0px 95px;
-    
+
 
 }
 
@@ -219,50 +219,104 @@
     margin: 0px;
 }
 
-#icon{
+#icon {
     font-size: 35px;
 }
 
-.fundoItens{
+.fundoItens {
     background-color: #fafafb;
     max-width: auto;
     max-height: auto;
     margin-left: 15.8%;
     margin-right: 15.8%;
-    height: 550px;
+    height: 600px;
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     padding: 20px 40px;
 }
 
-.caixas div{
+.caixas {
     display: inline-flex;
     justify-content: space-between;
-    align-items:stretch;
+    align-items: stretch;
     background-color: white;
-    margin-left: 15.8%;
-    margin-right: 15.8%;
+    margin-left: 14.8%;
+    margin-right: 14.8%;
     padding: 20px;
     margin: 10px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 5px;
 }
 
-#caixa1 img{
-    padding: 60px 10px;  
+#caixa1 img {
+    padding: 10px 3px 1px 3px;
 }
 
-#caixa2 img{
-    padding: 105px 40px;  
+
+#caixa2 img {
+    padding: 100px 3px 5px 20px;
 }
 
-#caixa2 img{
-    padding: 105px 40px;  
+#caixa3 img {
+    padding: 100px 3px 1px 20px;
 }
 
-#caixa3 img{
-    padding: 105px 40px;  
+#caixa4 img {
+    padding: 100px 3px 5px 25px;
 }
-#caixa4 img{
-    padding: 105px 40px;  
+
+.conteudoComTexto {
+    display: flex;
+    flex-direction: column;
+}
+
+#texto {
+    width: 250px;
+    padding-left: 15px;
+    margin-bottom: 15px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 16px;
+    text-decoration-line: underline;
+
+    color: #000000;
+
+}
+
+#texto1 {
+    padding-left: 15px;
+    margin-bottom: 5px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 10px;
+    text-decoration-line: line-through;
+    font-variant: small-caps;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+}
+
+#texto2 {
+    padding-left: 15px;
+    margin-bottom: 8px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 20px;
+    text-decoration-line: underline;
+
+    color: #FF6500;
+}
+
+#texto3 {
+    padding-left: 15px;
+    margin-bottom: 5px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 10px;
+    text-decoration-line: underline;
+    font-variant: small-caps;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+
+    color: #868686;
 }
