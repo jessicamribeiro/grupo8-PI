@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Poppins;
+}
+
+.container {
+    background-color: #0060b1;
+    min-width: auto;
+    min-height: auto;
+    height: 150px;
+    display: flex;
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+}
+
+#logokabum{
+    padding-left: 205px;
+}
+
+#logokabum svg{
+    align-items: center;
+    position: relative;
+    top: 40px;
+}
+
