@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #0060b1;
+    width: auto;
+    height: 150px;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    /*border: 2px solid black;*/
+    width: auto;
+    height: 150px;
+    align-items: center;
+    gap: 20%;
+    
+}
+#LogoKabum{
+    display: flex;
+    position: relative;
+     
+    right: 15vh;
+    width: 10%;
+    height: 70px;
+
+    cursor: pointer;
+}
+
+#IconCliente{
+    display: flex;
+    position: relative;
+   /* border: 2px solid white;*/
+    height: 40px;
+    width: 40px;
+    left:50vh;
+    justify-content: center;
+
+    cursor: pointer;
+}
+.BarraLaranja{
+    
+}
