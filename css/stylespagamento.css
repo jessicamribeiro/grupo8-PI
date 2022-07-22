@@ -32,7 +32,7 @@
 
 .barraLaranja {
     margin: 1px;
-    background-color: #ff6500;
+    background-color: #FF5600;
     box-sizing: border-box;
     width: 100%;
     height: 3px;
@@ -68,7 +68,7 @@
 }
 
 #containerIcones .icones{
-    border: solid 1px;
+    
     width: 100px;
     margin: 5px;
     text-align: center;
@@ -79,14 +79,12 @@
 }
 #containerIcones .icones .text{
     position: absolute;
-    left: 410px;
+    left: 417px;
     top: 200px;
     font-size: 20px;
     font-family: Poppins, sans-serif !important;
     font-weight:bold ;
-    text-decoration: solid #42464d;
-
-
+    color: rgba(86, 92, 105, 0.9);;
 }
 
 #containerIcones #cart{
@@ -107,11 +105,12 @@
 }
 
 #containerIcones #cart .iconify{
-    font-size: 60px;
+    font-size: 67px;
     align-items: center;
     vertical-align: center;
     display: inline-block;
     vertical-align: middle;
+    color: #FF5600;
 }
 
 #containerIcones #profile .iconify{
@@ -119,7 +118,7 @@
     vertical-align: center;
     display: inline-block;
     vertical-align: middle;
-    color: #ff6500;
+    color: #FF5600;
     padding-top: 10px;
 }
 
@@ -128,7 +127,7 @@
     vertical-align: center;
     display: inline-block;
     vertical-align: middle;
-    color: #ff6500;
+    color: #FF5600;
     padding-top: 18px;
 }
 #containerIcones #eye .iconify{
@@ -138,6 +137,14 @@
     vertical-align: middle;
     color: rgba(86, 92, 105, 0.2);
     padding-top: 18px;
+}
+#containerIcones #check .iconify{
+    font-size: 55px;
+    vertical-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    color: rgba(86, 92, 105, 0.2);
+    padding-top: 24px;
 }
 
 ----------------
@@ -149,7 +156,7 @@
 }
 
 .caixa {
-    background-color: #ff6500;
+    background-color: #FF5600;
     display: flex;
     justify-content: space-between;
     align-items: center;
