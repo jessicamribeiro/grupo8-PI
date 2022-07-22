@@ -85,15 +85,22 @@
     font-family: Poppins, sans-serif !important;
     font-weight:bold ;
     text-decoration: solid #42464d;
+
+
 }
-#containerIcones .icones .text{
-    position: absolute;
-    left: 410px;
-    top: 200px;
-    font-size: 20px;
-    font-family: Poppins, sans-serif !important;
-    font-weight:bold ;
-    text-decoration: solid #42464d;
+
+#containerIcones #cart{
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+}
+
+#containerIcones #cart .iconify{
+    font-size: 80px;
+    align-items: center;
+    vertical-align: center;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 ----------------
