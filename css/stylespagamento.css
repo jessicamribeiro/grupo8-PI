@@ -31,10 +31,11 @@
 }
 
 .barraLaranja {
+    margin: 1px;
     background-color: #ff6500;
     box-sizing: border-box;
     width: 100%;
-    height: 5px;
+    height: 3px;
 }
 
 #logokabum svg {
@@ -60,8 +61,27 @@
     cursor: pointer
 }
 
+#containerIcones{
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
 
+#containerIcones .icones{
+    border: solid 1px;
+    width: 100px;
+    margin: 5px;
+}
 
+#containerIcones .icones .iconify{
+    width: 130px;     
+    padding: 15px;    
+    border: linear-gradient(to right,#ff6500, #dee0e4 );
+    border-radius: 50%;
+    border: 10px solid #ff6500;
+    box-sizing: border-box;
+    border
+}
 ----------------
 
 .promocao img {
