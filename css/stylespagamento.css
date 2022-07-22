@@ -114,6 +114,15 @@
     vertical-align: middle;
 }
 
+#containerIcones #profile .iconify{
+    font-size: 80px;
+    vertical-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    color: #ff6500;
+    padding-top: 10px;
+}
+
 ----------------
 
 ----------------
