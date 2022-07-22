@@ -95,6 +95,17 @@
     justify-content: center;
 }
 
+#containerIcones #arrow{
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+}
+
+#containerIcones #arrow .iconify{
+    color: #7f858d;
+    font-size: 70px;
+}
+
 #containerIcones #cart .iconify{
     font-size: 80px;
     align-items: center;
