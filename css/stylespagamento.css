@@ -103,11 +103,11 @@
 
 #containerIcones #arrow .iconify{
     color: #7f858d;
-    font-size: 70px;
+    font-size: 50px;
 }
 
 #containerIcones #cart .iconify{
-    font-size: 80px;
+    font-size: 60px;
     align-items: center;
     vertical-align: center;
     display: inline-block;
@@ -121,6 +121,23 @@
     vertical-align: middle;
     color: #ff6500;
     padding-top: 10px;
+}
+
+#containerIcones #card .iconify{
+    font-size: 70px;
+    vertical-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    color: #ff6500;
+    padding-top: 18px;
+}
+#containerIcones #eye .iconify{
+    font-size: 70px;
+    vertical-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    color: rgba(86, 92, 105, 0.2);
+    padding-top: 18px;
 }
 
 ----------------
