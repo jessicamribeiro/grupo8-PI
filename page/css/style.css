@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:Poppins;
+}
+
+cor{
+    background: var(#ff6500);
+    background: var(#0060b1);
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    width: 100%;
+    background: #0060b1;
+    border-bottom: 4px solid #ff6500;
+}
+
+.container{
+    display:flex;    
+    width: 50%;
+    align-items: center;
+    justify-content: space-between;
+    
+    border: 2px solid black;
+}
+.logokabum{
+    display:flex;
+    justify-content: center;
+    height: 45%;
+    border-radius: 1rem;
+    cursor: pointer;
+
+}
+.box-cliente{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12vh;
+    width:8rem;
+    border: 2px solid black;
+
+}
+.iconecliente{
+    display: flex;
+    justify-content: center;
+    height: 50%;
+    border-radius: 2rem;
+    border: 2px solid black;
+}
+
+.login {
+    color: white;
+    font-size: 11px;
+    width:  6rem;
+    opacity: 0.7;
+    border: 2px solid black;
+    
+}
