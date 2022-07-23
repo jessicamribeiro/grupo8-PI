@@ -4,6 +4,15 @@
     margin: 0;
     font-family: Poppins;
 }
+main{
+    background-color: #F5F5F5;
+}
+body{
+    background-color: #F5F5F5;
+}
+footer{
+    background-color: #F5F5F5;
+}
 
 .container {
     background-color: #0060b1;
