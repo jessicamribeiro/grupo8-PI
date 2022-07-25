@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #003A6A;
+    max-width: 100%;
+    box-shadow: 0px 0px 10px #42a5f5;
+}
+
+
+.news {
+    font-family: Poppins, sans-serif !important;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    background: #003A6A;
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.kabum {
+    font-size: 28px;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.receive {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    justify-content: center;
+}
+
+.line-box {
+    display:flex;
+    margin-top: 1%;
+    max-width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.text-input {
+    display:flex;
+    background: white;
+    box-sizing: border-box;
+    width: 197px;
+    height: 38px;
+    border-radius: 5%;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+
+#name {
+    display: flex;
+}
+
+/* .text-input-email {
+    display: flex;
+    background: white;
+    box-sizing: border-box;
+    width: 197px;
+    height: 38px;
+    border-radius: 5%;
+    align-items: center;
+    max-width: 100%;
+    flex-wrap: wrap;
+} */
+
+.cadastrar {
+    background: rgb(255, 94, 0);
+    border-radius: 0.25rem;
+    cursor: pointer;
+    color: white;
+    height: 2.5rem;
+    font-weight: bold;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    margin-top: 1%;
+    font-family: Poppins, sans-serif !important;
+    flex-wrap: wrap;
+    background: #004D8E;
+    height: auto;
+}
+
+.atendimento {
+    font-family: Poppins, sans-serif !important;
+    font-size: 18px;
+    color: white;
+    flex-wrap: wrap;
+}
+
+#atend {
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 1%;
+    display:flex;
+    justify-content: center;
+}
+
+.hour {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.sac {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#sac {
+    font-weight: bold;
+    margin-bottom: 2%;
+    font-size: 18px;
+}
+
+#social-icons {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2%;
+    flex-wrap: wrap;
+}
+
+.sociais {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.download-app {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#apps {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2%;
+    flex-wrap: wrap;
+}
