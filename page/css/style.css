@@ -12,53 +12,77 @@ cor{
     background: var(#0060b1);
 }
 header{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 20vh;
+    height: min-content;
     width: 100%;
     background: #0060b1;
     border-bottom: 4px solid #ff6500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.container{
-    display:flex;    
-    width: 50%;
+.container {
+    display:flex;   
+    height: 100%;
+    width: 80%;
     align-items: center;
     justify-content: space-between;
-    
-    border: 2px solid black;
 }
+
 .logokabum{
     display:flex;
     justify-content: center;
-    height: 45%;
     border-radius: 1rem;
     cursor: pointer;
-
 }
+
+.logokabum img{
+    height: 4vw;
+}
+
 .box-cliente{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 12vh;
-    width:8rem;
-    border: 2px solid black;
+    width: max-content;
+    gap: 1rem;
 
 }
 .iconecliente{
     display: flex;
     justify-content: center;
-    height: 50%;
     border-radius: 2rem;
-    border: 2px solid black;
 }
 
 .login {
-    color: white;
-    font-size: 11px;
-    width:  6rem;
-    opacity: 0.7;
-    border: 2px solid black;
-    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.login p{
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.AccountController {
+    width: 100%;
+    display: flex;
+    text-transform: uppercase;
+    gap: 0.5rem;
+}
+
+.AccountController > p {
+    transition: all 2s ease;
+}
+
+.AccountController > p:first-of-type:hover, .AccountController > p:last-of-type:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.iconecliente img{
+    height: 3vw;
+    cursor: pointer;
 }
