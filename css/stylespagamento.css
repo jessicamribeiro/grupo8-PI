@@ -156,6 +156,14 @@ footer{
     padding-top: 24px;
 }
 
+main #middleBox{
+    border: solid 1px;
+    margin-top: 45px;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 500px;
+}
+
 ----------------
 
 ----------------
