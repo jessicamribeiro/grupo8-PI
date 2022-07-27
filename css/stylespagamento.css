@@ -158,11 +158,58 @@ footer{
 }
 
 main #middleBox{
-    border: solid 1px;
     margin-top: 45px;
     margin-left: 10%;
     margin-right: 10%;
     height: 500px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+main .bottomBox{
+    height: 145px;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-right: 11%;
+}
+
+main .bottomBox #back{
+    border: solid 1px;
+    height: 54px;
+    width: 18%;
+    border-color:rgba(255, 102, 0, 0.8);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFf;
+    min-width: 10%;
+}
+
+main .bottomBox #pay{
+    margin-left: 22px;
+    border-radius: 5px;
+    height: 54px;
+    width: 28%;
+    background-color: rgba(255, 102, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+main .bottomBox #back #backText{
+    height: 25px;
+    font-weight: 800;
+    color: rgba(255, 102, 0, 0.8)    ;
+}
+
+main .bottomBox #pay #payText{
+    height: 25px;
+    font-weight: 800;
+    color: #FFFFFf;
 }
 
 ----------------
