@@ -53,8 +53,7 @@ header{
     justify-content: center;
     align-items: center;
     height: 12vh;
-    width: max-content;
-   
+    width: max-content  
 }
 .iconecliente{
     display: flex;
@@ -88,12 +87,10 @@ header{
     cursor: pointer;
 }
 
-
 .iconecliente img{
     height: 3vw;
     cursor: pointer;
 }
-
 
 .Container{
     width: 100%;
@@ -109,12 +106,11 @@ nav{
     justify-content:center;
     gap: 1.3rem;
 }
+
 .Main{
     padding: 0 0 0 10rem;
     width: 100%;
     height: 900px;
-
-   
 }
 
 section{
@@ -123,9 +119,7 @@ section{
     grid-template-rows: 0  70 10vh ;
     background: rgba(238, 234, 234, 0.8);
     grid-row-gap: 1.8em;
-    grid-column-gap: 4rem;
-    
-   
+    grid-column-gap: 4rem; 
 }
 
 .Pedido{
@@ -155,12 +149,21 @@ section{
 #Ent{
     display: flex;
     flex-direction: column;
-    padding:  0 2rem;
+    padding:  1rem 2rem;
     justify-content: center;
     text-align: center;
     
     width: 100%;
     height: 50%;
+
+    background: #FAFAFB;
+    
+}
+
+.Logradouro{
+    display: flex;
+    flex-direction: column;
+    padding:  1rem 2rem;
     
 }
 .Resumo{
@@ -186,12 +189,9 @@ section{
 }
 
 .Descricao{
-    
-    
-    width: 100%;
-    height: 40%;
 
-   
+    width: 100%;
+    height: 50%;
 }
 
 .Descricao  h1{
@@ -205,7 +205,8 @@ section{
     font-size: 15px;
     font-weight: 500;
     line-height: 18px;
-    padding:20px 20px ;
+    padding:10px ;
+    
     color: #42464D80;
 }
 .Descricao span{
@@ -213,14 +214,58 @@ section{
     
 }
 
+.Descricao >h1:first-of-type:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#CaixaBranca{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
 .Valores{
-    background: rgba(141, 250, 188, 0.692);    
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
     width: 100%;
     height: 40%;
-
     border-radius: 5px;
+    background: rgba(141, 250, 188, 0.692);    
     
 }
+
+.Pix{
+    display: flex;
+    width: 100%;
+    height: 7vw;
+    justify-content: flex-start;
+    font-size: 18px;
+    color: rgba(31, 144, 80, 0.8);
+   
+}
+.ValorPix{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    align-items: flex-end;
+    font-size: 25px;
+    color: rgba(31, 144, 80, 0.8);
+    
+}
+.Economize{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+  
+
+    font-size: 14px;
+    color: rgba(31, 144, 80, 0.8);
+   
+}
+
 .button {
     display: flex;
     width: 100%;
@@ -228,6 +273,9 @@ section{
     padding: 2rem 0  1rem;
     gap: 2rem;
     flex-direction: column; 
+}
+.button > button:first-of-type{
+    background: #B6BBC2;
 }
 
 button  {
@@ -254,12 +302,14 @@ button  {
 .Title{
     display: flex;
     flex-direction: column;
-    border: solid;
+    
     display: flex;
     width: 100%;
     height: 25%;
-    gap: 3rem;
+    gap: 2.3rem;
     padding: 0.5rem 1rem;
+
+    border-bottom:1px solid #D9D9D9 ;
 }
 
 
@@ -287,33 +337,78 @@ button  {
     color: #000;
 }
 
+.Produto{
+    display: flex;
+    width: 100%;
+    height:70%;
+    
+    flex-direction: column;
+}
+
+#Prod{
+    display: flex;
+    margin: 50px;
+}   
+#Prod > img:first-child:hover{
+    cursor: pointer;
+    
+}
+.InfProd{
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    padding: 0 2rem;  
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+    color: rgba(0, 0, 0, 0.35);
+}
+
+.InfProd span:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.InfProd span{
+    color: #000;
+}
+
+#Des{
+    display: flex;
+    
+    width: 100%;
+    height: 4vw;
+    padding: 0 2rem; 
+    background: #FAFAFB;
+}
+#Circulo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 2rem;
+    gap: 1rem ;
+
+}
+.circulo{
+    width: 15px;
+    height: 15px;
+    background:#ffff;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.circulo:hover{
+    cursor: pointer;
+
+}
+
 .rodape{
     width: 100%;
     height: 5vh;
 
     background: rgba(238, 234, 234, 0.8);
 
-}
-
-/* CSS DO FOOTER*/
-footer{
-    width: 100%;
-    height: 200px;
-    
-}
-
-#Parte1{
-    box-sizing: border-box;
-
-    width: 100%;
-    height: 100px;
-    
-    background: #FFFF;
-    border-bottom: 1px solid #FFFFFF;
-}
-#Parte2{
-    width: 100%;
-    height: 100px;
-    background: #003A6A;
-    border-bottom: 1px solid #FFFFFF;
 }

@@ -31,7 +31,7 @@
             </div>
         </header>
         <div class="Container">
-            <nav id="progressBar">
+            <nav id="progressBar"><!--circulo de progresso-->
                 <img src="../page/img/2022-07-10 19_02_04-Window 1.svg" alt="circleProgress">
                 <img src="../page/img/car.svg" alt="car">
                 <img src="../page/img/arrows.svg" alt="arrows">
@@ -44,6 +44,7 @@
                 <img src="../page/img/ok.svg" alt="ok">
             </nav>
         </div>
+        <!--Inicio da parte informação do pedido-->
         <section class="Main">
             <div class="Pedido">
                 <div class="DadosPessoais">
@@ -65,23 +66,30 @@
                         <p><strong>Endereço de entrega.</strong></p>
                         <p>Esté é o endereço onde seu pedido será enviado.</p>
                     </div>
-                    <div>
-                        <p><address>Nome da rua</address></p>
-                        <P><address>Número: Do logradouro</address></P>
-                        <p><address>Bairro: Nome do Bairro</address></p>
-                        <p><address>Cidade: Nome da Cidade</address></p>
-                        <p><address>Complemento:</address></p>
+                    <div class="Logradouro">
+                        <p><address><strong>Nome da rua:</strong></address></p>
+                        <P><address><strong>Número: <!--Numero do Logradouro--></strong></address></P>
+                        <p><address><strong>Bairro: <!--Nome do Bairro--> </strong></address></p>
+                        <p><address><strong>Cidade:<!--Nome da Cidade--></strong></address></p>
+                        <p><address><strong>Complemento:</strong></address></p>
                     </div>
                 </div>
             </div>
             <aside class="Resumo">
                 <div class="BoxResumo">
                     <div class="Descricao">
-                       <h1> <img src="/page/img/searchfile.svg" alt=""> Resumo </h1>
-                       <p>Valor dos Produtos <span><strong> R$00,00</strong></span></p>
-                       </p>
+                       <h1> <img src="/page/img/searchfile.svg" alt="">&nbsp;&nbsp; Resumo </h1>
+                        <div id="CaixaBranca">
+                            <p>Valor dos Produtos <span><strong> R$00,00</strong></span></p>
+                            <p>Frete&nbsp;<span><strong>R$00,00</strong></span></p>
+                            <p>Total a prazo <span><strong>R$00,00</strong></span></p>
+                            <p>Em até 12x sem juros!</p>
+                        </div>
                     </div>
-                    <div class="Valores">           
+                    <div class="Valores"> 
+                        <div class="Pix"><p>Valor no PIX</p></div>
+                        <div class="ValorPix"><p><strong>R$ 00,00</strong></p></div>
+                        <div class="Economize"><p>(Economize: <strong>R$ 00,00</strong> )</p></div>    
                     </div>
                     <div class="button">
                         <button><strong>FINALIZAR</strong></button>
@@ -91,9 +99,33 @@
             </aside>
             <div class="Lista">
                 <div class="Title">
-                    <h1><img src="../page/img/camera.svg" alt="camera"><strong>LISTA DE PRODUTOS</strong></h1>
+                    <h1><img src="../page/img/camera.svg" alt="camera"><strong>&nbsp;&nbsp;LISTA DE PRODUTOS</strong></h1>
                     <p>Vendido e entregue por : <strong>KABUM!</strong></p>
                 </div>
+                <!--Final da parte informações do Pedido-->
+
+                <!--Parte da lista de Produtos-->
+                <div class="Produto">
+                    <div id="Prod">
+                        <img class="ProdutoVenda" src="../page/img/produtos/ssd.svg" alt="">
+                        <div class="InfProd">
+                            <p> Kingston</p>
+                            <span><strong>SSD Kingston A400, 240GB, SATA, Leitura 500MB/s,</strong><p></p>
+                            <strong> Gravação 350MB/s - SA400S37/240G</strong></span>
+                            <p>Com Desconto no Pix:&nbsp;R$ <tr></tr></p>
+                            <p>Parcelado no cartão em até 10X sem juros:&nbsp;R$ 00</p>
+                            <p><img src="./img/Fire.svg" alt="Fogo">&nbsp;&nbsp; Oferta Ninja</p>
+                        </div>
+                    </div>
+                    <div id="Des">
+                        <h1><img src="./img/truck.svg" alt="FRETE">&nbsp;&nbsp;FRETE</h1>
+                    </div>
+                    <div id="Circulo">
+                        <div class="circulo"></div>
+                        <p><strong>GFL</strong> - até 6 dias úteis</p>
+                    </div>
+                </div>
+                <!--Final da parte lista de Produtos-->
             </div>
         </section>
         <nav class="rodape"></nav>
