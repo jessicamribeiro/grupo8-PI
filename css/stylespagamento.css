@@ -212,6 +212,9 @@ main .bottomBox #pay #payText{
     color: #FFFFFf;
 }
 
+#middleBox#leftPanel.div{
+    border: solid 1px;
+}
 ----------------
 
 ----------------
