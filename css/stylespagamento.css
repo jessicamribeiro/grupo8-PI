@@ -87,10 +87,15 @@ footer{
 #containerIcones .icones .iconify{
     font-size: 105px;
 }
+
+#containerIcones .icones{
+    position: relative;
+}
+
 #containerIcones .icones .text{
     position: absolute;
-    left: 417px;
-    top: 200px;
+    left: 35px;
+    top: 35px;
     font-size: 20px;
     font-family: Poppins, sans-serif !important;
     font-weight:bold ;
