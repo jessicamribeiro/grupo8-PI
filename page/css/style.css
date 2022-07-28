@@ -114,37 +114,170 @@ nav{
     width: 100%;
     height: 900px;
 
-    border: solid;
+   
 }
 
 section{
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 0  70 10vh ;
-
+    background: rgba(238, 234, 234, 0.8);
     grid-row-gap: 1.8em;
     grid-column-gap: 4rem;
+    
    
 }
 
 .Pedido{
-    background: red;
+    display: flex;
+    background: #ffff;
+
+    padding: 2rem 2rem;
+    width: 100%;
+    height: 39vh;
+    
 }
 
+.DadosPessoais{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#Box-End{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 50vh;
+    background: #FAFAFB;
+}
+#Ent{
+    display: flex;
+    flex-direction: column;
+    padding:  0 2rem;
+    justify-content: center;
+    text-align: center;
+    
+    width: 100%;
+    height: 50%;
+    
+}
 .Resumo{
     grid-column-start: 2;
     grid-column-end: 4;
     grid-row-start:1;
     grid-row-end: 3;
-    background: #0060b1;
-
+    background: #ffff;
     width: auto;
-    height: 600px;
+    height: 680px;
 
     border-radius: 5px
 }
-.Lista{
-    background: rebeccapurple;
+
+.BoxResumo{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    
+    padding: 1.5rem;
+  
+}
+
+.Descricao{
+    
+    
+    width: 100%;
+    height: 40%;
+
+   
+}
+
+.Descricao  h1{
+    
+    text-align: inherit;
+    font-size: 25px;
+}
+
+.Descricao p{ 
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    padding:20px 20px ;
+    color: #42464D80;
+}
+.Descricao span{
+    color: #000;
+    
+}
+
+.Valores{
+    background: rgba(141, 250, 188, 0.692);    
+    width: 100%;
+    height: 40%;
+
+    border-radius: 5px;
+    
+}
+.button {
+    display: flex;
+    width: 100%;
+    height: max-content;
+    padding: 2rem 0  1rem;
+    gap: 2rem;
+    flex-direction: column; 
+}
+
+button  {
+    
+    border-radius: 5px;
+    border: 1px solid #ff6500;
+    width: 100%;
+    height: 56px;
+
+
+    cursor: pointer;
+    color: #ff6500;
+    font-size: 25px;
+    background: #F5F5F5;
 }
 
 
+.Lista{
+    background: #ffff;;
+    width: 100%;
+    height: 50vh;
+}
+
+.rodape{
+    width: 100%;
+    height: 5vh;
+
+    background: rgba(238, 234, 234, 0.8);
+
+}
+
+/* CSS DO FOOTER*/
+footer{
+    width: 100%;
+    height: 200px;
+    
+}
+
+#Parte1{
+    box-sizing: border-box;
+
+    width: 100%;
+    height: 100px;
+    
+    background: #FFFF;
+    border-bottom: 1px solid #FFFFFF;
+}
+#Parte2{
+    width: 100%;
+    height: 100px;
+    background: #003A6A;
+    border-bottom: 1px solid #FFFFFF;
+}
