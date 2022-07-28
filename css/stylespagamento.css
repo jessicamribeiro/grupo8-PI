@@ -169,6 +169,24 @@ main #middleBox{
     height: 500px;
     background-color: white;
     border-radius: 5px;
+    display: flex;
+}
+
+main .debug{
+    border: solid 1px;
+    height: 40px;
+    width: 100%;
+}
+
+main #middleBox #leftPanel {
+    height: 300px;
+    width: 70%;
+    display: flex;
+    margin-left: 10%;
+}
+main #middleBox #rightPanel {
+    height: 300px;
+    width: 100%;
 }
 
 main .bottomBox{
@@ -217,9 +235,8 @@ main .bottomBox #pay #payText{
     color: #FFFFFf;
 }
 
-#middleBox#leftPanel.div{
-    border: solid 1px;
-}
+
+
 ----------------
 
 ----------------
