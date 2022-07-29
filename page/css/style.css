@@ -128,13 +128,15 @@ section{
 
     padding: 2rem 2rem;
     width: 100%;
-    height: 39vh;
+    height: 20rem;
     
 }
 
 .DadosPessoais{
     display: flex;
+
     flex-direction: column;
+    border: solid;
     
 }
 
@@ -173,7 +175,7 @@ section{
     grid-row-end: 3;
     background: #ffff;
     width: auto;
-    height: 680px;
+    height: 42.5rem;
 
     border-radius: 5px
 }
@@ -229,7 +231,7 @@ section{
 .Valores{
     display: flex;
     flex-direction: column;
-    padding: 15px;
+    padding: 2.5rem;
     width: 100%;
     height: 40%;
     border-radius: 5px;
@@ -240,7 +242,7 @@ section{
 .Pix{
     display: flex;
     width: 100%;
-    height: 7vw;
+    height: 7vh;
     justify-content: flex-start;
     font-size: 18px;
     color: rgba(31, 144, 80, 0.8);
