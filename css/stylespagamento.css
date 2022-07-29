@@ -172,18 +172,98 @@ main #middleBox{
     display: flex;
 }
 
-main .debug{
-    border: solid 1px;
-    height: 40px;
-    width: 100%;
-}
+
 
 main #middleBox #leftPanel {
     height: 300px;
     width: 70%;
-    display: flex;
     margin-left: 10%;
+    margin-top: 25px;
 }
+
+main #middleBox #leftPanel #EyePay{
+    display: flex;
+    justify-content: left;
+}
+
+main #middleBox #leftPanel #EyePay #iconEye{
+    width: 5%;
+    font-size: 25px;
+}
+
+main #middleBox #leftPanel #EyePay #textPay{
+    width: 45%;
+    font-weight: 700;
+    line-height:31px;
+    padding-left: 10px;
+    font-size: 22px;
+    color: #42464d;
+}
+
+main #middleBox #leftPanel #Pix{
+    width: 30%;
+    font-weight: 700;
+    line-height:31px;
+    background-color: #ff6500;
+    border-radius: 5px;
+    margin-top: 25px;
+    font-size: 2;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 0px 30px;
+    height: 48px;
+}
+main #middleBox #leftPanel .iconify{
+    font-size: 25px;
+    padding-right: 10px;
+}
+
+main #middleBox #leftPanel #Boleto{
+    width: 30%;
+    font-weight: 700;
+    line-height:31px;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-size: 2;
+    display: flex;
+    align-items: center;
+    color: #ff6500;
+    padding: 0px 30px;
+    border: solid 1px #ff6500;
+    height: 48px;
+}
+
+main #middleBox #leftPanel #CK{
+    width: 30%;
+    font-weight: 700;
+    line-height:31px;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-size: 2;
+    display: flex;
+    align-items: center;
+    color: #ff6500;
+    padding: 0px 30px;
+    border: solid 1px #ff6500;
+    height: 48px;
+}
+
+main #middleBox #leftPanel #CC{
+    width: 30%;
+    font-weight: 700;
+    line-height:31px;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-size: 2;
+    display: flex;
+    align-items: center;
+    color: #ff6500;
+    padding: 0px 30px;
+    border: solid 1px #ff6500;
+    height: 48px;
+}
+
 main #middleBox #rightPanel {
     height: 300px;
     width: 100%;
