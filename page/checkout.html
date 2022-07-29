@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="/page/css/footer.css">
+        <link rel="stylesheet" href="../page/css/footer.css">
         <link rel="stylesheet" href="/page/css/style.css">
         
         <title>checkout-kabum</title>
@@ -31,7 +31,7 @@
             </div>
         </header>
         <div class="Container">
-            <nav id="progressBar">
+            <nav id="progressBar"><!--circulo de progresso-->
                 <img src="../page/img/2022-07-10 19_02_04-Window 1.svg" alt="circleProgress">
                 <img src="../page/img/car.svg" alt="car">
                 <img src="../page/img/arrows.svg" alt="arrows">
@@ -44,18 +44,108 @@
                 <img src="../page/img/ok.svg" alt="ok">
             </nav>
         </div>
+        <!--Inicio da parte informação do pedido-->
         <section class="Main">
             <div class="Pedido">
                 <div class="DadosPessoais">
+                    <div >
+                        <h1> <img src="/page/img/truck.svg" alt=""><strong> INFORMAÇÕES DO SEU PEDIDO</strong></h1>
+                        <p><strong>Dados Pessoais</strong></p>
+                        <P>Informações que serão inseridas na nota fiscal padrão</P>
+                    </div>
+                    <div id="Box-End">
+                        <p><strong>Nome Completo </strong></p>
+                        <p><strong>CPF:</strong></p>
+                        <p><strong>Telefone:</strong></p>
+                        <p><strong><E-mail>E-mail</E-mail></strong></p>
+                        <p><strong>CEP:</strong></p>
+                    </div>
                 </div>
-                <div class="Entregas"></div>
+                <div class="Entrega">
+                    <div id="Ent">
+                        <p><strong>Endereço de entrega.</strong></p>
+                        <p>Esté é o endereço onde seu pedido será enviado.</p>
+                    </div>
+                    <div class="Logradouro">
+                        <p><address><strong>Nome da rua:</strong></address></p>
+                        <P><address><strong>Número: <!--Numero do Logradouro--></strong></address></P>
+                        <p><address><strong>Bairro: <!--Nome do Bairro--> </strong></address></p>
+                        <p><address><strong>Cidade:<!--Nome da Cidade--></strong></address></p>
+                        <p><address><strong>Complemento:</strong></address></p>
+                    </div>
+                </div>
             </div>
-            <aside class="Resumo"></aside>
-            <div class="Lista"></div>
-            
-        </section>
-        <footer>
+            <!--aside-->
+            <aside class="Resumo">
+                <div class="BoxResumo">
+                    <div class="Descricao">
+                       <h1> <img src="/page/img/searchfile.svg" alt="">&nbsp;&nbsp; Resumo </h1>
+                        <div id="CaixaBranca">
+                            <p>Valor dos Produtos <span><strong> R$00,00</strong></span></p>
+                            <p>Frete&nbsp;<span><strong>R$00,00</strong></span></p>
+                            <p>Total a prazo <span><strong>R$00,00</strong></span></p>
+                            <p>Em até 12x sem juros!</p>
+                        </div>
+                    </div>
+                    <div class="Valores"> 
+                        <div class="Pix"><p>Valor no PIX</p></div>
+                        <div class="ValorPix"><p><strong>R$ 00,00</strong></p></div>
+                        <div class="Economize"><p>(Economize: <strong>R$ 00,00</strong> )</p></div>    
+                    </div>
+                    <div class="button">
+                        <button><strong>FINALIZAR</strong></button>
+                        <button><strong>VOLTAR</strong></button>
+                    </div>
+                </div>
+            </aside>
+            <div class="Lista">
+                <div class="Title">
+                    <h1><img src="../page/img/camera.svg" alt="camera"><strong>&nbsp;&nbsp;LISTA DE PRODUTOS</strong></h1>
+                    <p>Vendido e entregue por : <strong>KABUM!</strong></p>
+                </div>
+                <!--Final da parte informações do Pedido-->
 
+                <!--Parte da lista de Produtos-->
+                <div class="Produto">
+                    <div id="Prod">
+                        <img class="ProdutoVenda" src="../page/img/produtos/ssd.svg" alt="">
+                        <div class="InfProd">
+                            <p> Kingston</p>
+                            <span><strong>SSD Kingston A400, 240GB, SATA, Leitura 500MB/s,</strong><p></p>
+                            <strong> Gravação 350MB/s - SA400S37/240G</strong></span>
+                            <p>Com Desconto no Pix:&nbsp;R$ <tr></tr></p>
+                            <p>Parcelado no cartão em até 10X sem juros:&nbsp;R$ 00</p>
+                            <p><img src="./img/Fire.svg" alt="Fogo">&nbsp;&nbsp; Oferta Ninja</p>
+                        </div>
+                    </div>
+                    <div id="Des">
+                        <h1><img src="./img/truck.svg" alt="FRETE">&nbsp;&nbsp;FRETE</h1>
+                    </div>
+                    <div id="Circulo">
+                        <div class="circulo"></div>
+                        <p><strong>GFL</strong> - até 6 dias úteis</p>
+                        <div class="star"><img src="/page/img/star.svg" alt=""><p>R$ 00,00</p></div>
+                    </div>
+                </div>
+                <!--Final da parte lista de Produtos-->
+            </div>
+        </section>
+        <nav class="rodape"></nav>
+        <footer>
+            <div id="Parte1">
+                <div class="ImgFooter">
+                    <img src="/page/img/icon/Buscapé.svg" alt="">
+                    <img src="/page/img/icon/Google.svg" alt="">
+                    <img src="/page/img/icon/ebit.svg" alt="">
+                    <img src="/page/img/icon/confi.svg" alt="">
+                </div>
+            </div>
+            <div id="Parte2">
+                KaBuM!® é uma marca registrada de KABUM COMÉRCIO ELETRÔNICO S/A | CNPJ: 05.570.714/0001-59 | Todos os direitos reservados. Os preços anunciados neste
+                site ou via e-mail promocional podem ser alterados sem prévio aviso. O KaBuM! não é responsável por erros descritivos. As fotos contidas nesta página são 
+                meramente ilustrativas do produto e podem variar de acordo com o fornecedor/lote do fabricante. Este site trabalha 100% em criptografia SSL. 
+                Clique aqui e veja as políticas de nossa empresa.
+            </div>
         </footer>
     </body>
 </html>
