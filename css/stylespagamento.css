@@ -170,9 +170,8 @@ main #middleBox{
     background-color: white;
     border-radius: 5px;
     display: flex;
+    position: relative;
 }
-
-
 
 main #middleBox #leftPanel {
     height: 300px;
@@ -265,8 +264,37 @@ main #middleBox #leftPanel #CC{
 }
 
 main #middleBox #rightPanel {
-    height: 300px;
+    height: 250px;
     width: 100%;
+    position: relative;
+    right: 380px;
+    top: 90px;
+    color: #565c69;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+main #middleBox #rightPanel .texto{
+    padding-top: 10px;
+    color: #565c69;
+    size: 14px;
+    line-height: 24px;
+}
+
+main #middleBox #rightPanel #p3{
+    padding-top: 10px;
+}
+
+main #middleBox #rightPanel li{
+    margin-left: 15px;
+}
+
+main #middleBox #rightPanel li{
+    margin-left: 15px;
+}
+
+.debug {
+    border: solid 1px;
 }
 
 main .bottomBox{
@@ -317,9 +345,9 @@ main .bottomBox #pay #payText{
 
 
 
-----------------
+/*----------------
 
-----------------
+----------------*/
 
 .promocao img {
     cursor: pointer;
