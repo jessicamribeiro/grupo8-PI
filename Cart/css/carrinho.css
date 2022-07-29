@@ -17,11 +17,11 @@ body {
     justify-content: space-around;
 }
 
-.container ul{
+.container ul {
     list-style-type: none;
 }
 
-.container .login{
+.container .login {
     width: 500px;
     text-align: left;
 }
@@ -139,7 +139,7 @@ body {
     display: grid;
     gap: 0.8rem;
     box-sizing: border-box;
-    font-family: Poppins, sans-serif !important; 
+    font-family: Poppins, sans-serif !important;
 }
 
 
@@ -224,6 +224,57 @@ body {
 }
 
 .cart {
-    display: block;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 100%;
+    width: 800px;
+    margin-left: 4%;
+    flex-wrap: wrap;
+    border-radius: 1rem;
+    margin-block-start: 2em;
+    margin-block-end: 2em;
 }
 
+#cart {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-block-start: 0.50em;
+    margin-block-end: 2em;
+}
+
+#payment {
+    border-radius: 3px;
+    border-color: rgb(255, 101, 0);
+    background-color: rgb(255, 101, 0);
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin-left: 0.6rem;
+    height: 2em;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#continue {
+    border-radius: 3px;
+    border-color: rgb(255, 101, 0);
+    background-color:white;
+    color: rgba(255, 101, 0);
+    font-weight: bold;
+    font-size: 1.2em;
+    cursor: pointer;
+    height: 2em;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-block-start: 0.20em;
+}
