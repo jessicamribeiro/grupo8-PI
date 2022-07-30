@@ -78,18 +78,17 @@ footer{
 }
 
 #containerIcones .icones{
-    
     width: 100px;
     margin: 5px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
 }
 
 #containerIcones .icones .iconify{
     font-size: 105px;
-}
-
-#containerIcones .icones{
-    position: relative;
 }
 
 #containerIcones .icones .text{
@@ -106,6 +105,7 @@ footer{
     display: flex;
     align-items: center;  
     justify-content: center;
+    padding-top: 20px;
 }
 
 #containerIcones #arrow{
@@ -161,7 +161,12 @@ footer{
     color: rgba(86, 92, 105, 0.2);
     padding-top: 24px;
 }
-
+#containerIcones .desativado{
+color: rgba(86, 92, 105, 0.2);
+}
+#containerIcones .ativo{
+    color:#FF5600;
+    }
 main #middleBox{
     margin-top: 45px;
     margin-left: 10%;
