@@ -145,3 +145,197 @@
     padding: px;
     
 }
+
+.barraLaranja {
+    background-color: #ff6500;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 5px;
+    box-sizing: border-box;
+    width: 100%;
+
+}
+
+.itensbarra{
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.barraLaranja div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+    font-weight: 700;
+    font-size: 17px;
+    color: white;
+    margin-left: 1.125rem;
+    padding: 0px 16px;
+    cursor: pointer
+}
+
+.barraLaranja div:not(:last-child) {
+    border-right: 1px solid rgba(252, 252, 250, 0.30);
+
+}
+
+
+
+
+
+.box{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #003A6A;
+    padding: 10px 15px;
+}
+
+.news {
+    font-family: Poppins, sans-serif !important;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    background: #003A6A;
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.kabum {
+    font-size: 25px;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.receive {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    justify-content: center;
+}
+
+.line-box {
+    display:flex;
+    margin-top: 1%;
+    max-width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.text-input {
+    display:flex;
+    background: white;
+    box-sizing: border-box;
+    width: 197px;
+    height: 38px;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+#name {
+    display: flex;
+}
+
+.cadastrar {
+    background: rgb(255, 94, 0);
+    border-radius: 0.25rem;
+    cursor: pointer;
+    color: white;
+    height: 2.5rem;
+    font-weight: bold;
+    max-width: 100%;
+    flex-wrap: wrap;
+    padding: 10px;
+    
+}
+
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    margin-top: 1%;
+    font-family: Poppins, sans-serif !important;
+    flex-wrap: wrap;
+    background: #004D8E;
+    height: auto;
+}
+
+.atendimento {
+    font-family: Poppins, sans-serif !important;
+    font-size: 18px;
+    color: white;
+    flex-wrap: wrap;
+    padding: 10px 20px 10px 20px;
+}
+
+#atend {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 1%;
+    display:flex;
+    justify-content: center;
+}
+
+.hour {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 14px;
+}
+
+.sac {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 14px;
+}
+
+#sac {
+    font-weight: bold;
+    margin-bottom: 2%;
+    font-size: 18px;
+    padding: 10px;
+}
+
+#social-icons {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2%;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.sociais {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    
+}
+
+.download-app {
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px;
+}
+
+#apps {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2%;
+    flex-wrap: wrap;
+}
