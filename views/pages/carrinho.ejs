@@ -1,0 +1,52 @@
+
+<% - include('./partials/header') %>
+    
+    <p class="barraLaranja"></p>
+
+    <main>
+        <div class="addres">
+            <div class="select">
+                <h2 id="select-addres">SELECIONE O ENDEREÇO</h2>
+            </div>
+            <div class="infosCEP">
+                <input id="enterCEP" placeholder="Inserir CEP" value="">
+                <button type="submit" id="buttonOK">OK</button>
+                <a target="_blank" href="https://buscacepinter.correios.com.br/app/endereco/index.php" class="CEP">Não
+                    lembro meu CEP</a>
+            </div>
+        </div>
+
+        <div class="product">
+            <div class="interfaceProduct">
+                <h2 id="product">PRODUTO</h2>
+                <div class="productImage">
+                    <img src="./img/produtos/IMG ASPIRADOR.svg" alt="Imagem do aspirador de pó da Kabum!">
+                </div>
+            </div>
+            <div class="description">
+                <p id="ssd">Robô Aspirador de Pó KaBuM! Smart 500, Preto - Recarregamento Automático!</p>
+                <div id="description">
+                    <span id="descriptionProduct">Com desconto no PIX: R$ 854,00</span>
+                </div>
+                <div id="description">
+                    <span id="descriptionProduct" class="margin-end">Parcelado no cartão em até 10x: R$ 1.150,90</span>
+                </div>
+            </div>
+            <div class="cupom">
+                <div class="infosCupom">
+                    <input id="applyCupom" placeholder="Insira seu cupom de desconto" value="">
+                    <button type="submit" id="buttonApply">Aplicar cupom</button>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="cart">
+            <div id="cart">
+                <button type="submit" id="payment">IR PARA O PAGAMENTO</button>
+                <button type="submit" id="continue">CONTINUAR COMPRANDO</button>
+            </div>
+        </div>
+    </main>
+
+    <% - include('./partials/footer') %>
