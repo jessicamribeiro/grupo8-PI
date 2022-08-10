@@ -1,7 +1,7 @@
 const homeController = {
     index:(req,res) =>{
 
-        return res.render("index")
+        return res.render("home")
     }
 }
 
