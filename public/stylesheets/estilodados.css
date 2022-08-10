@@ -386,11 +386,13 @@ main .forms{
     height: 928px;
     width: 54.2%;
     justify-content: space-between;
+    box-sizing: border-box;
 }
 
 main .forms #form1{
     background-color: #fff;
-    width: 48%;
+    width: 45%;
+    padding: 32px;
    
 }
 
@@ -398,4 +400,19 @@ main .forms #form2{
     background-color: #ffff;
     width: 48%;
     
+}
+
+main .forms #form1 .cabecalho{
+    display: flex;
+    justify-content: space-between;
+}
+
+main .forms #form1 #dados1{
+    display: flex;
+    border: #003A6A solid;
+}
+
+main .forms #form1 #dados2{
+    display: flex;
+    border: #003A6A solid;
 }
