@@ -1,7 +1,7 @@
 const homeController = {
     index:(req,res) =>{
-        
-        res.render("./pages/home")
+
+        return res.render("home")
     }
 }
 
