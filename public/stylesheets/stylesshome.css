@@ -55,7 +55,7 @@
     box-sizing: border-box;
     height: 75px;
     position: relative;
-    cursor: pointer;
+    
 }
 
 #busca1{
@@ -73,7 +73,6 @@
     background-color: transparent;
     padding: 3px 20px;
     font-size: 17px;
-    font-weight: 00;
     border: none;
     height: 35px;
     width: 250px;
@@ -147,6 +146,11 @@
     
 }
 
+#iconsLogin .iconify:hover{
+    font-size: 27px;
+    transition: all .1s ease-out;
+}
+
 #iconsLogin #phone{
     cursor: pointer;
 }
@@ -193,10 +197,17 @@
     padding: 0px 16px;
 }
 
+.barraLaranja p{
+    background-image: linear-gradient(#FFff, #ffff), linear-gradient(#FF6500, #FF6500);
+    background-size: 0 5px, auto;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    transition: all .2s ease-out;
+    cursor: pointer;
+}
 
 .barraLaranja p:hover{
-    cursor: pointer;
-    text-decoration:underline;
+    background-size: 100% 5px, auto;
     
 }
 
@@ -339,14 +350,16 @@
     padding-left: 15px;
     margin-bottom: 15px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 14px;
     line-height: 16px;
-    text-decoration-line: underline;
-
     color: #000000;
     cursor: pointer;
 
+}
+
+#texto:hover{
+    font-weight: 600;
 }
 
 #texto1 {
@@ -550,14 +563,29 @@
     font-weight: 700;
     color: #FF6500;
     flex-wrap: wrap;
+    background-image: linear-gradient(#FF6500, #FF6500), linear-gradient(#FFFFFF, #FFFFFF);
+    background-size: 0 5px, auto;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    transition: all .2s ease-out;
 }
+
+
+.textabaixocaixa div:hover{
+    background-size: 100% 5px, auto;
+}
+
 
 .textabaixocaixa2{
     display: flex;
     flex-direction: row;
     justify-content: end;
     padding: 0px 20px 0px;
-    cursor: pointer;
+    background-image: linear-gradient(#FF6500, #FF6500), linear-gradient(#FFFFFF, #FFFFFF);
+    background-size: 0 5px, auto;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    transition: all .2s ease-out;
 }
 
 .textabaixocaixa2 div{
@@ -565,7 +593,15 @@
     font-size: 18px;
     font-weight: 700;
     color: #FF6500;
-    border: #000000;
+    background-image: linear-gradient(#FF6500, #FF6500), linear-gradient(#FFFFFF, #FFFFFF);
+    background-size: 0 5px, auto;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    transition: all .2s ease-out;
+}
+
+.textabaixocaixa2 div:hover{
+    background-size: 100% 5px, auto;
 }
 
 .news {
