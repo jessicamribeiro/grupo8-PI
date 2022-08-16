@@ -217,29 +217,13 @@
 }
 
 
-.promocao {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 15.8%;
-    margin-right: 15.8%;
-}
-
-.promocao img {
-    cursor: pointer;
-    width: 100%;
-}
 
 .caixa {
     background-color: #ff6500;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-around;
     max-width: auto;
-    max-height: auto;
-    margin-left: 15.8%;
-    margin-right: 15.8%;
-    padding: 20px 40px;
+    padding: 10px 30px;
 }
 
 #mes {
@@ -258,7 +242,7 @@
 #text {
     color: white;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 400;
     padding: 8px;
 }
 
@@ -283,8 +267,6 @@
     background-color: #fafafb;
     max-width: 100%;
     max-height: auto;
-    margin-left: 15.8%;
-    margin-right: 15.8%;
     height: 1000px;
     display: flex;
     justify-content: space-evenly;
