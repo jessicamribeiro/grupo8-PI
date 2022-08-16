@@ -37,6 +37,7 @@
     font-size: 16px;
     height: 25px;
     width: 18px;
+    cursor: pointer;
     
 }
 
@@ -54,6 +55,7 @@
     box-sizing: border-box;
     height: 75px;
     position: relative;
+    cursor: pointer;
 }
 
 #busca1{
@@ -116,12 +118,14 @@
     max-width: 10.375rem;
     box-sizing: border-box;
     
+    
 }
 
 .login .textlogin {
     font-size: 14px;
     width: 120px;
     color: #DEE0E4;
+    cursor: pointer;
 }
 
 .login .iconify{
@@ -129,6 +133,7 @@
     width: 66px;
     color: #fff;
     padding-right: 10px;
+    cursor: pointer;
 }
 
 #iconsLogin{
@@ -139,8 +144,21 @@
     min-height: auto;
     min-width: auto;
     height: 36px;
-    padding: px;
     
+}
+
+#iconsLogin #phone{
+    cursor: pointer;
+}
+
+
+#iconsLogin #heart{
+    cursor: pointer;
+}
+
+
+#iconsLogin #cart{
+    cursor: pointer;
 }
 
 .barraLaranja {
@@ -153,6 +171,7 @@
     padding: 5px;
     box-sizing: border-box;
     width: 100%;
+    
 
 }
 
@@ -172,7 +191,13 @@
     color: white;
     margin-left: 1.125rem;
     padding: 0px 16px;
-    cursor: pointer
+}
+
+
+.barraLaranja p:hover{
+    cursor: pointer;
+    text-decoration:underline;
+    
 }
 
 .barraLaranja div:not(:last-child) {
@@ -216,6 +241,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 #text {
@@ -276,6 +302,8 @@
     padding: 25px 3px 15px 5px;
     width: 295px;
     height: 200px;
+    cursor: pointer;
+    
 }
 
 
@@ -283,23 +311,27 @@
     padding: 30px 3px 15px 20px;
     width: 280px;
     height: 200px;
+    cursor: pointer;
 }
 
 #caixa3 img {
     padding: 30px 3px 15px 20px;
     width: 280px;
     height: 200px;
+    cursor: pointer;
 }
 
 #caixa4 img {
     padding: 30px 3px 15px 20px;
     width: 280px;
     height: 200px;
+    cursor: pointer;
 }
 
 .conteudoComTexto {
     display: flex;
     flex-direction: column;
+    
 }
 
 #texto {
@@ -313,6 +345,7 @@
     text-decoration-line: underline;
 
     color: #000000;
+    cursor: pointer;
 
 }
 
@@ -325,6 +358,7 @@
     text-decoration-line: line-through;
     font-variant: small-caps;
     font-feature-settings: 'tnum' on, 'lnum' on;
+    cursor: pointer;
 }
 
 #texto2 {
@@ -337,6 +371,7 @@
     text-decoration-line: underline;
 
     color: #FF6500;
+    cursor: pointer;
 }
 
 #texto3 {
@@ -417,6 +452,7 @@
 
     background: #FF6500;
     border-radius: 5px;
+    
 }
 
 #caixaB {
@@ -495,6 +531,7 @@
     padding: 5px;
     width: 100%;
     flex-wrap: wrap;
+    cursor: pointer;
     
 }
 
@@ -504,6 +541,7 @@
     justify-content: end;
     flex-wrap: wrap;
     padding: 40px 20px 60px;
+    cursor: pointer;
 }
 
 .textabaixocaixa div{
@@ -519,6 +557,7 @@
     flex-direction: row;
     justify-content: end;
     padding: 0px 20px 0px;
+    cursor: pointer;
 }
 
 .textabaixocaixa2 div{
