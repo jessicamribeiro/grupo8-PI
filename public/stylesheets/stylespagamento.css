@@ -229,6 +229,7 @@ main #middleBox #containerCenter #leftPanel #Pix{
 
 main #middleBox #containerCenter #leftPanel #Pix:hover{
     background-size: 100% 5px, auto;
+    cursor: pointer;
 }
 
 main #middleBox #containerCenter #leftPanel .iconify{
@@ -258,6 +259,7 @@ main #middleBox #containerCenter #leftPanel #Boleto{
 
 main #middleBox #containerCenter #leftPanel #Boleto:hover{
     background-size: 100% 5px, auto;
+    cursor: pointer;
 }
 
 main #middleBox #containerCenter #leftPanel #CK{
@@ -282,6 +284,7 @@ main #middleBox #containerCenter #leftPanel #CK{
 
 main #middleBox #containerCenter #leftPanel #CK:hover{
     background-size: 100% 5px, auto;
+    cursor: pointer;
 }
 
 main #middleBox #containerCenter #leftPanel #CC{
@@ -306,6 +309,7 @@ main #middleBox #containerCenter #leftPanel #CC{
 
 main #middleBox #containerCenter #leftPanel #CC:hover{
     background-size: 100% 5px, auto;
+    cursor: pointer;
 }
 
 main #middleBox #containerCenter #rightPanel {
@@ -404,6 +408,16 @@ main .bottomBox #back{
     justify-content: center;
     background-color: #FFFFFf;
     min-width: 10%;
+    background-image: linear-gradient(#ff6500, #ff6500), linear-gradient(#ffffff, #ffffff);
+    background-size: 0 5px, auto;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    transition: all .2s ease-out;
+}
+
+main .bottomBox #back:hover{
+    background-size: 100% 5px, auto;
+    cursor: pointer;
 }
 
 main .bottomBox #pay{
@@ -415,8 +429,17 @@ main .bottomBox #pay{
     display: flex;
     align-items: center;
     justify-content: center;    
+    background-image: linear-gradient(#ffefe6, #ffefe6), linear-gradient(#ff6500, #ff6500);
+    background-size: 0 5px, auto;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    transition: all .2s ease-out;
 }
 
+main .bottomBox #pay:hover{
+    background-size: 100% 5px, auto;
+    cursor: pointer;
+}
 main .bottomBox #back #backText{
     height: 25px;
     font-weight: 800;
